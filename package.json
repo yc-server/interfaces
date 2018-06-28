@@ -1,6 +1,6 @@
 {
   "name": "@ycs/interfaces",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "interfaces",
   "license": "MIT",
   "repository": "https://github.com/yc-server/interfaces.git",
@@ -29,11 +29,12 @@
     "watch": "npm run build -- --watch",
     "watch:test": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.30"
+  },
   "devDependencies": {
     "@types/jest": "^22.0.1",
-    "@types/koa": "^2.0.46",
-    "@types/koa-router": "^7.0.30",
     "@types/node": "^8.0.0",
     "coveralls": "^2.0.0",
     "jest": "^22.0.4",
